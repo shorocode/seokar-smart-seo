@@ -1,0 +1,134 @@
+/* Seokar Metabox Styling */
+.seokar-metabox .seokar-field-group {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.seokar-metabox .seokar-field-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.seokar-metabox .seokar-field-group .widefat {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.seokar-metabox .seokar-field-group .description {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.seokar-metabox .seokar-report-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.seokar-metabox .seokar-report-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.seokar-metabox .seokar-checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.seokar-metabox .seokar-checklist li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #eee;
+    display: flex;
+    align-items: center;
+}
+
+.seokar-metabox .seokar-checklist li:last-child {
+    border-bottom: none;
+}
+
+.seokar-metabox .seokar-checklist li span {
+    margin-right: 8px;
+    min-width: 20px; /* Ensure icons align */
+    text-align: center;
+}
+
+.seokar-metabox .seokar-suggestions {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 0.95em;
+}
+
+.seokar-metabox .seokar-suggestions li {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.seokar-metabox .seokar-suggestions li::before {
+    content: '•'; /* Unicode bullet */
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+/* Dashboard Styling */
+.seokar-dashboard-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.seokar-dashboard-summary .summary-box {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.seokar-dashboard-summary .summary-box h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.seokar-dashboard-summary .summary-box p {
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* General WP admin notices */
+.seokar-metabox .notice,
+.seokar-dashboard .notice {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid;
+}
+
+.seokar-metabox .notice-info,
+.seokar-dashboard .notice-info {
+    border-color: #007cba;
+}
+
+.seokar-metabox .notice-warning,
+.seokar-dashboard .notice-warning {
+    border-color: #f0b849;
+}
+
+.seokar-metabox .notice-success,
+.seokar-dashboard .notice-success {
+    border-color: #46b450;
+}
+
+.seokar-metabox .seokar-refresh-gsc-status {
+    margin-left: 10px;
+    display: inline-block;
+}
