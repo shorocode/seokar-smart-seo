@@ -1,0 +1,1 @@
+# seokar-smart-seo
